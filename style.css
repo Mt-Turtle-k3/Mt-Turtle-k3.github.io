@@ -67,12 +67,22 @@ footer {
     right: 30px;
     font-size: 14px;
     z-index: 1000;
+
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
 }
 
 .lang-switch a{
     text-decoration: none;
     margin: 0 5px;
     color: #333;
+}
+
+.lang-switch a.active{
+    color: red;
+    font-weight: bold;
 }
 
 .lang-switch a:hover{
