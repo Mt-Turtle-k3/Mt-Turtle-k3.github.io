@@ -60,3 +60,21 @@ footer {
     background-color: #003366;
     color: white;
 }
+
+.lang-switch{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.lang-switch a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: #333;
+}
+
+.lang-switch a:hover{
+    text-decoration: underline;
+}
